@@ -1,0 +1,13 @@
+C:\Users\Owner\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Release\PlanningCenterImport.exe.config
+C:\Users\Owner\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Release\PlanningCenterImport.exe
+C:\Users\Owner\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Release\PlanningCenterImport.pdb
+C:\Users\Owner\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Release\PlanningCenterImport.xml
+C:\Users\Owner\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Release\Newtonsoft.Json.dll
+C:\Users\Owner\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Release\System.Data.SQLite.dll
+C:\Users\Owner\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Release\PCImport.Form1.resources
+C:\Users\Owner\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Release\PCImport.Resources.resources
+C:\Users\Owner\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Release\WindowsApplication1.vbproj.GenerateResource.Cache
+C:\Users\Owner\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Release\PlanningCenterImport.exe
+C:\Users\Owner\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Release\PlanningCenterImport.xml
+C:\Users\Owner\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Release\PlanningCenterImport.pdb
+C:\Users\Owner\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Release\WindowsApplication1.vbprojResolveAssemblyReference.cache

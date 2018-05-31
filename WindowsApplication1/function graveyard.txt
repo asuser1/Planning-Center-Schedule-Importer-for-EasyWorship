@@ -1,0 +1,85 @@
+﻿Private Function loadSong(ByVal songId As Integer, ByVal arrId As Integer, Optional lst As Boolean = True) As song
+        Dim webClient As New System.Net.WebClient
+        Dim result As String = ""
+        webClient.Credentials = New Net.NetworkCredential(appId, secret)
+        Try
+            result = webClient.DownloadString(getSong & songId & "/arrangements/" & arrId)
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+
+        Dim pSong As song = Nothing
+
+        If result <> vbNullString Then
+            Dim json As JToken = JToken.Parse(result)
+
+            Dim lyrics As JToken = json("data")("attributes")("chord_chart")
+            Dim roadMap As List(Of String) = New List(Of String)
+            For Each dat As JToken In json("data")("attributes")("sequence")
+                roadMap.Add(dat.ToString().Normalize)
+            Next
+
+            pSong = parseLyrics(lyrics.ToString(), songId, arrId, roadMap)
+            If (pSong IsNot Nothing) Then
+                If lst Then
+                    ListView3.Tag = pSong
+                    loadLyrics(pSong)
+                End If
+            End If
+        End If
+        Return pSong
+    End Function
+
+	'Not really the best way to parse this but really don't have many options.
+    'The spaghetti code is strong with this one. Not readable in the slightest but works as intended.
+    'Using regular expressions to find verses,choruses,bridges, and misc. Extend regex pattern as needed.
+    While True
+
+                line = sr.ReadLine()
+                If (line <> vbNullString) Then
+                    If (rx.IsMatch(line) = True) Then
+
+                        If line.Contains("Misc") Then
+                            'If the header is a misc header then advance the position to the misc header name
+                            Do
+                                line = sr.ReadLine()
+                            Loop Until line <> vbNullString
+                        End If
+
+                        If header <> vbNullString Then
+                            nextHeader = line
+                            If (headerExists(header) = False) Then
+                                If section <> vbNullString Then
+                                    addHeader(header, section)
+                                End If
+                                header = ""
+                                section = ""
+                                If (headerExists(nextHeader) = False) Then
+                                    header = nextHeader
+                                    nextHeader = ""
+                                End If
+                            Else
+                                header = nextHeader
+                                Continue While
+                            End If
+
+                        Else
+                            header = line
+                        End If
+                    Else
+                        If (headerExists(header) = False And header <> vbNullString) Then
+                            section &= line & vbNewLine
+                        Else
+                            Continue While
+                        End If
+                    End If
+                ElseIf line Is Nothing Then
+                    If (header <> vbNullString And section <> vbNullString) Then
+                        addHeader(header, section)
+                    End If
+
+                    Exit While
+                End If
+            End While
+        End Using
+    End Sub

@@ -1,0 +1,17 @@
+c:\users\owner\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\PlanningCenterImport.exe.config
+c:\users\owner\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\PlanningCenterImport.exe
+c:\users\owner\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\PlanningCenterImport.pdb
+c:\users\owner\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\PlanningCenterImport.xml
+c:\users\owner\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbprojResolveAssemblyReference.cache
+c:\users\owner\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\PCImport.Form1.resources
+c:\users\owner\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\PCImport.Resources.resources
+c:\users\owner\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+c:\users\owner\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\PlanningCenterImport.exe
+c:\users\owner\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\PlanningCenterImport.xml
+c:\users\owner\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\PlanningCenterImport.pdb
+c:\users\owner\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Owner\documents\visual studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\System.Data.SQLite.dll
+D:\Users\Refused49\Documents\Visual Studio 2015\Projects\MouseMove\Planning-Center-Schedule-Importer-for-EasyWorship\WindowsApplication1\bin\Debug\PlanningCenterImport.exe.config
+D:\Users\Refused49\Documents\Visual Studio 2015\Projects\MouseMove\Planning-Center-Schedule-Importer-for-EasyWorship\WindowsApplication1\obj\Debug\PlanningCenterImport.exe
+D:\Users\Refused49\Documents\Visual Studio 2015\Projects\MouseMove\Planning-Center-Schedule-Importer-for-EasyWorship\WindowsApplication1\obj\Debug\PlanningCenterImport.xml
+D:\Users\Refused49\Documents\Visual Studio 2015\Projects\MouseMove\Planning-Center-Schedule-Importer-for-EasyWorship\WindowsApplication1\obj\Debug\PlanningCenterImport.pdb
